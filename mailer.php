@@ -11,7 +11,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 
 // redirect to thank you page
 
-header('Location: http://www.plattsburghstudenthousing.com/thankyou.html');
-exit('Redirecting you to http://www.plattsburghstudenthousing.com/thankyou.html');
+header('Location: plattsburghstudenthousing.com/thankyou.html');
+exit('Redirecting you to plattsburghstudenthousing.com/thankyou.html');
 
 ?>
