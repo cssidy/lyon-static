@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrapper {
+	background:/*#b53930;*/ #eee;
+	font-family: 'Crimson Text', serif;
+	font-size: 120%;
+	max-width: 100%;
+}
+
+.hidden {
+	display:none;
+}
+
+.header {
+	background: #fff;
+	padding-top: 2em;
+	padding-right:0;
+	color: #000;
+}
+
+.headblue {
+	background-color:#b53930;
+	color:#fff;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.headblue small {
+	color: #fff;
+}
+
+nav .btn {
+	border-radius: 0;
+	border: none;
+}
+
+nav .btn-info {
+	color:#000;
+	background-color:#fff;
+}
+
+nav .btn-info:hover {
+	color:#fff;}
+
+nav .btn-info:active {
+	color:#fff;
+}
+
+nav a {
+	padding-right: 1em;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #000;
+} 
+
+
+
+.listinglinks {
+	font-size: 120%;
+}
+
+.listings {
+	background: #fff;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.listingsspecial a {
+	display: block;
+}
+
+.listings h2 {
+	padding-bottom: .5em;
+}
+
+.listings img {
+	margin-bottom: 3em;
+	padding:3px;
+}
+
+.contactinfo {
+	background: #fff;
+}
+
+.paddinghalfem {
+	padding-top: .5em;
+}
+
+.padding1halfem {
+	padding-top: 1.5em;
+}
+
+.contactinfo h4 {
+	margin-bottom: 3em;
+}
+
+.contactform {
+	background: #b53930;
+	padding:1em 3em 2em 1em;
+	margin-bottom: 1em;
+	color:#fff;
+}
+
+.antispam {
+	display: none;
+}
+
+.googlemap {
+	padding-left: 24em;
+	padding-right: 2em;
+}
+
+.footer {
+	background: #333;
+	padding:1.5em;
+	margin-top: 1em;
+	color:#fff;
+}
+
+.footer a, .footer a:hover {
+	color: #5bc0de;
+}
+
+#submit {
+	color: #000;
+	background-color:#fff;
+}
+
+#submit:hover {
+	color: #fff;
+	background-color: #5bc0de;
+}
+
+@media (max-width: 600px) {
+	.header div img {
+		height: 100px;
+		width: 104px;
+	}
+
+	img {
+		height: 175px;
+		width: 200px;
+	}
+
+	.floorplans {
+		height: 112.5px;
+		width: 150px;
+	}
+}
+
+@media (max-width: 500px) {
+	.listinglinks {
+		font-size: 16px;
+	}
+	
+	.listings {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 400px) {
+	.listinglinks {
+		font-size: 15px;
+	}
+	
+	.listings {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 320px) {
+	.listinglinks {
+		font-size: 14px;
+	}
+	
+	.listings {
+		font-size: 14px;
+	}
+}
